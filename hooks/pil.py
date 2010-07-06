@@ -4,6 +4,7 @@ import re
 
 ref = re.M|re.I|re.U
 def pil(options,buildout):
+    import pdb;pdb.set_trace()  ## Breakpoint ##
     cwd = os.getcwd()
     os.chdir(options['compile-directory'])
     locations = {'freetype':buildout['freetype']['location'],
