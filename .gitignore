@@ -1,0 +1,13 @@
+*.pyc
+.mintiage
+.minitage
+.downloads
+*egg-info
+PIL*/build
+PIL*/dist
+sys
+*.bak
+.download
+.installed.cfg
+bin
+parts
